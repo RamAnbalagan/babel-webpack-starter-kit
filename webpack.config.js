@@ -5,7 +5,7 @@ const path = require('path');
 
 module.exports = {
   entry:{
-    app: './src/app.js' // entry point to the app
+    app: ['@babel/polyfill','./src/app.js'] // entry point to the app
   },
   output: {
     // __dirname = current directory
