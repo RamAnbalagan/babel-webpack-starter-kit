@@ -11,3 +11,5 @@ Starter pack for ES6+ applications using Webpack and Babel. Transpiles it down t
 * Is a compiler that takes latest versions from Es6+ and brings it down to ES5
   
 # Polyfill
+
+Used for Async await support and other es2015 features!
